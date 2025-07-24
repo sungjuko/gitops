@@ -6,7 +6,6 @@ metadata:
     app: nginx
   name: nginx-svc
 spec:
-  replicas: 2
   ports:
   - port: 80
     protocol: TCP
